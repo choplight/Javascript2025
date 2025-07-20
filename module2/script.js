@@ -16,5 +16,5 @@ let myArea = myPi * myFavNum * myFavNum;
 document.write(
   "<p>Hello " + Fname + ", you entered <strong>" + myFavNum + "</strong> as your favorite number.</p>" +
   "<p>If that was the radius of a circle, the circle’s area would be approximately <strong>" + myArea.toFixed(6) + "</strong>.</p>" +
-  "<p>We used the Pi value of <strong>" + myPi + "</strong> in our calculation.</p>"
+  "<p>The Pi value <strong>" + myPi + "</strong> was used in the calculation.</p>"
 );
